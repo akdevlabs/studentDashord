@@ -1,0 +1,255 @@
+<!doctype html>
+<html>
+    <head>
+       
+        <title>Estudiantes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="logo-O.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  
+       
+        <link rel="stylesheet" href="s.css">
+        
+
+    
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    </head>
+    <body>
+    
+    <section class="dashbord" id="dashbord">  
+        
+       
+      <div class="left-dashbord">
+          <div class="tool-bar">
+              <div>
+                 <a target="_blank" href=""><img class="logo" src="logo3.jpg"></a>
+              </div>
+                  
+              <div class="tool-bar-links">  
+                  <div class="tool-bar-general">
+                        
+                       
+                          <ul>
+
+                            <div class="block">
+                                <img src="home.png" class="icon">
+                                <a class="general" href="" ><li >Mi portal</li></a>
+                            </div>
+                            
+                            <div class="block">
+                                <img src="tutor.png" class="icon">
+                                <a class="general" href="" ><li>Tutorials</li></a>
+                            </div>    
+
+                            <div class="block">
+                                <img src="meeting.png" class="icon">
+                                <a class="general" href="" ><li>Reuniones</li></a>
+                            </div>
+                            <div class="block">
+                                <img src="pay.png" class="icon">
+                                <a class="general" href="" ><li>Pagos</li></a>
+                            </div>
+                            
+        
+                          </ul>
+                  </div>
+
+                  <div class="tool-bar-settings">
+                      <div class="dropdown">
+                          <div class="select">
+                                <span class="selected"><img src="gear.png" class="gear"></span><a class="set">Ajustes</a>
+                                <div class="caret"></div>
+                          </div>
+
+                          <ul class="menu">
+                           
+                            <li  class="it">Ayuda</li>
+                            <li >Contactanos</li>
+                            <li >configuración de perfil</li>
+                          
+                        </ul>
+                      </div>
+                      
+
+                  </div>  
+
+         
+                  </div>   
+            </div>
+        </div>
+
+        <div class="center-dashbord">
+
+                <div class="banner">
+    
+                    <div class="banner-text">
+                          <h1>Bienvenido de nuevo,<br> <a class="WB" id="WB"></a></h1>
+                          
+                          <div class="WBT" id="WBT">
+
+                          </div>
+                    </div>
+
+                        <div class="student-Id" id="student-Id">
+
+                        </div>
+                 
+    
+                </div>
+            
+                <div class="ProgressBar">
+                    <h1>Tu avance en el curso:</h1>
+      
+                    <div class="barBlock">
+                           
+                            <div class="bar-block" id="bar">
+
+                                
+                            </div>
+                            <div class="percentage">
+                                <a>30%</a>
+                            </div>      
+                    </div>  
+                </div>
+
+                <div class="middleBlock">
+                    <div class="middle">
+                        <div class="homework">
+                            <div>
+                            <h1>Upload homework here:</h1>
+                            <form method="post">
+                                <input type="file" id="file-selector" multiple
+                                value="Send Email"  onclick="sendEmail()">
+
+
+
+                                <input type="button" value="Send Email" onclick="sendEmail()"/>
+
+                              
+                            </form>
+                            </div>
+                        </div>    
+                    </div>
+    
+                    <div class="level">
+                        <div class="level-block">
+                            <div>
+                            <H1>Nivel de Ingles:</H1>
+                            </div>
+                            
+                        <div class="levelImg" id="levelImg" >
+                            
+                        </div>
+
+                            <div class="icon">
+
+                            </div>
+                    </div>
+
+                
+            
+                    </div>  
+                </div>
+
+                <div class="bottom">
+                    <h1>Lecciones para ti</h1>
+
+                        <div class="bottomBlock">
+
+                            <div class="tarea">
+                                <div class="tareaBlock">
+                                    <h1>Tarea</h1>
+                                    <h2>Lection<a id="lection">1</a></h2>
+                                </div>
+                                
+                                <div class="iconBlock">
+                                    <img src="tarea.png" class="tareaIcon">
+                                </div>
+                                
+                            </div>
+
+                            <div class="recursos">
+                                <div>
+                                    <h1>Recursos</h1>
+                                    <h2>Lection<a id="lection">1</a></h2>
+                                </div>
+                                
+                                <div>
+                                    <img src="book.png" class="tareaIcon">
+                                </div>
+                                
+                            </div>
+
+                        </div>    
+                    
+
+                </div>
+
+        </div>  
+        
+        <div class="right-dashbord">
+          
+
+            <div class="calander-block"> 
+                <div class="wrapper">
+                    <header>
+                      
+                      <div class="icons">
+                        <span id="prev" class="material-symbols-rounded">&#10094;</span>
+                        <p class="current-date"></p>
+
+                        <span id="next" class="material-symbols-rounded">&#10095;</span>
+                      </div>
+
+                    </header>
+
+
+                    <div class="calendar">
+                      <ul class="weeks">
+                        <li>Sun</li>
+                        <li>Mon</li>
+                        <li>Tue</li>
+                        <li>Wed</li>
+                        <li>Thu</li>
+                        <li>Fri</li>
+                        <li>Sat</li>
+                      </ul>
+                      <ul class="days"></ul>
+                    </div>
+                </div>
+                
+               
+            </div> 
+            
+           
+            <div class="feedback" >
+                <a href="">Teacher feedback</a>
+            </div>
+
+            
+            <div class=" rafBlock">
+                <a target="_blank" href=""><img class="raf-icon" src="RAF.png"></a>
+                <h1 class="rafText">Recomendar a un amigo</h1>
+             </div>
+
+
+        </div>
+     
+    
+    </section>
+
+
+
+
+    </body>
+  
+ 
+        <script src="Sindex.js" type="module"></script>
+</html>

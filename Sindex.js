@@ -7,6 +7,7 @@ import {fraseList} from './database.js'
 
 //-------------------- Dropdown ---------------------//
 const dropdown = document.querySelectorAll('.dropdown');
+const dropdownIt = document.querySelectorAll('.dropdownOne');
 
 dropdown.forEach(dropdown =>{
     const sel = dropdown.querySelector('.select')
@@ -22,9 +23,6 @@ dropdown.forEach(dropdown =>{
         menu.classList.toggle('menu-open');
     
     });
-    
-
-    
     })
     
     

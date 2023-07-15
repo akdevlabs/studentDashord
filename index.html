@@ -38,47 +38,95 @@
                        
                           <ul>
 
-                            <div class="block">
-                                <img src="home.png" class="icon">
-                                <a class="general" href="" ><li >Mi portal</li></a>
+                            <div class="dropdown" id="dropdownIt">
+                                <div class="select">
+                                      <span class="selected" ><img src="home.png" class="gear"></span><a class="set" href="https://main--sage-lily-3b571d.netlify.app/">Mi portal</a>
+                                      <div class="caret"></div>
+                                </div>
+            
+                            </div>
+
+                            <div class="dropdown"id="dropdownIt">
+                                <div class="select">
+                                      <span class="selected"><img src="pay.png" class="gear"></span><a class="set">Pagos</a>
+                                      <div class="caret"></div>
+                                </div>
+            
+                                <ul class="menu">
+                                 
+                                    <li><a class="portal" href="">Protal</a></li>
+                                   
+                                  
+                                
+                                </ul>
+                            </div>
+
+                            <div class="dropdown"id="dropdownIt">
+                                <div class="select">
+                                      <span class="selected"><img src="meeting.png" class="gear"></span><a class="set">Reuniones</a>
+                                      <div class="caret"></div>
+                                </div>
+            
+                                <ul class="menu">
+                                    <li><a class="portal" href="https://us05web.zoom.us/j/844 140 6256?pwd=9B6UaRzrTAWDrms50fxtABJot7hmWb.1">Zoom</a></li>
+                                    
+                                
+                                </ul>
                             </div>
                             
-                            <div class="block">
-                                <img src="tutor.png" class="icon">
-                                <a class="general" href="" ><li>Tutorials</li></a>
-                            </div>    
-
-                            <div class="block">
-                                <img src="meeting.png" class="icon">
-                                <a class="general" href="" ><li>Reuniones</li></a>
+                            <div class="dropdown"id="dropdownIt">
+                                <div class="select">
+                                      <span class="selected"><img src="tutor.png" class="gear"></span><a class="set">Tutorials</a>
+                                      <div class="caret"></div>
+                                </div>
+            
+                                <ul class="menu">
+                                 
+                                    <li><link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+                                        <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+                                        <script>
+                                                (function() {
+                                                var target = document.currentScript;
+                                                window.addEventListener('load', function() {
+                                                    calendar.schedulingButton.load({
+                                                    url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1hsByGd7l3pNUqlAPc9hsSqJ51J_IspMyW5ZohzDtERcpx4F3CG8BliavGITcrzp0kl_OM4eoE?gv=true',
+                                                    color: '#039BE5',
+                                                    label: 'Programar una cita',
+                                                    target,
+                                                    });
+                                                });
+                                                })();
+                                        </script>
+                                    </li>
+                                  
+                                
+                                </ul>
                             </div>
-                            <div class="block">
-                                <img src="pay.png" class="icon">
-                                <a class="general" href="" ><li>Pagos</li></a>
+            
+                            <div class="tool-bar-settings"id="dropdownIt">
+                                  <div class="dropdown">
+                                      <div class="select">
+                                            <span class="selected"><img src="gear.png" class="gear"></span><a class="set">Ajustes</a>
+                                            <div class="caret"></div>
+                                      </div>
+            
+                                      <ul class="menu">
+                                       
+                                        <li  class="it">Ayuda</li>
+                                        <li >Contactanos</li>
+                                        <li >configuración de perfil</li>
+                                      
+                                    </ul>
                             </div>
+                                  
+            
+                            </div> 
                             
         
                           </ul>
                   </div>
 
-                  <div class="tool-bar-settings">
-                      <div class="dropdown">
-                          <div class="select">
-                                <span class="selected"><img src="gear.png" class="gear"></span><a class="set">Ajustes</a>
-                                <div class="caret"></div>
-                          </div>
-
-                          <ul class="menu">
-                           
-                            <li  class="it">Ayuda</li>
-                            <li >Contactanos</li>
-                            <li >configuración de perfil</li>
-                          
-                        </ul>
-                      </div>
-                      
-
-                  </div>  
+               
 
          
                   </div>   
@@ -124,13 +172,13 @@
                         <div class="homework">
                             <div>
                             <h1>Upload homework here:</h1>
-                            <form method="post">
-                                <input type="file" id="file-selector" multiple
-                                value="Send Email"  onclick="sendEmail()">
+                            
+                            <form class="form" action="https://formsubmit.co/astorgalearingcenter@gmail.com" method="POST">
+                            
+                                <input type="file" name="attachment" accept=".rtf">
 
-
-
-                                <input type="button" value="Send Email" onclick="sendEmail()"/>
+                                <button class="subBtn" type="submit">Send</button>
+                                
 
                               
                             </form>
@@ -235,7 +283,7 @@
 
             
             <div class=" rafBlock">
-                <a target="_blank" href=""><img class="raf-icon" src="RAF.png"></a>
+                <a  target="_blank" href="https://alcdashboardraf.netlify.app/"><img class="raf-icon" src="RAF.png"></a>
                 <h1 class="rafText">Recomendar a un amigo</h1>
              </div>
 

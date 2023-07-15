@@ -53,12 +53,14 @@ body{
 
 }
 
-
-
-
-
 .dropdown{
   box-sizing: border-box;
+  margin-top: -30px;
+  margin-bottom: 100px;
+}
+.dropdown a {
+  color: #fff;
+  text-decoration: none;
 }
 .select{
 
@@ -66,9 +68,8 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
-
   border-radius: 0.5em;
-  padding: 1em;
+  padding: 1epx;
   cursor: pointer;
   transition: background 0.3s;
 }
@@ -80,14 +81,16 @@ body{
 
 }
 
-
 .gear-rotate{
 transform:rotate(90deg);
 transition: 10.5s;
 }
+
+
+
 .menu{
   list-style: none;
-  padding:1;
+  padding:1px;
   color:rgb(255, 255, 255);
   position: absolute;
   width: 10%;
@@ -99,7 +102,7 @@ transition: 10.5s;
 
 
 .menu li{
-  padding: 0.7em 0.5em;
+  padding: 0.1em 0.5em;
   margin: 0.3em 0;
   cursor: pointer;
   color: #fafafa;
@@ -118,6 +121,11 @@ transition: 10.5s;
   font-size: 25px;
  margin-right: 70px ;
 }
+.portal{
+  padding:2px 30px ;
+  background-color:#039BE5;
+}
+
 /*---------------- Center -----------------------*/
 .center-dashbord{
    width:85vh;

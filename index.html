@@ -301,8 +301,10 @@
 
     </body>
     <script>
-        
-      </script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const greetingValue = urlParams.get('greeting');
+        console.log(greetingValue); 
+    </script>
  
         <script src="Sindex.js" type="module"></script>
 </html>

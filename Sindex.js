@@ -31,7 +31,7 @@ dropdown.forEach(dropdown =>{
 const wBanner = document.getElementById("WB")
 
 
-let userName = 202301
+let userName = localStorage.getItem("textvalues")
 
 
 
@@ -308,5 +308,7 @@ function printstuImg(){
 
 }
 printstuImg()
+
+//--------------------------- Local storage ------------------------//
 
 

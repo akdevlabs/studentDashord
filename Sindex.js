@@ -314,3 +314,5 @@ function transferString(){
    let transfer = localStorage.getItem("textvalues")
    return(Math.floor(transfer)) 
 }
+
+

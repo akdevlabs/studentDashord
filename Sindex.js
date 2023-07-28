@@ -29,9 +29,9 @@ dropdown.forEach(dropdown =>{
 
 //-------------------- Welcome Banner ---------------------//
 const wBanner = document.getElementById("WB")
+var transfer = localStorage.getItem("textvalues")
 
-
-let userName = transferString()
+let userName = (Math.floor(transfer))
 
 
 function chooseUser(){
@@ -310,9 +310,8 @@ printstuImg()
 
 //--------------------------- Local storage ------------------------//
 
-function transferString(){
-   let transfer = localStorage.getItem("textvalues")
-   return(Math.floor(transfer)) 
-}
-console.log(transferString())
+
+
+
+
 

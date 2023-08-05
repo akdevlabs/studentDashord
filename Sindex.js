@@ -312,7 +312,7 @@ printstuImg()
 
 const urlParams = new URLSearchParams(window.location.search)
 const greetingShow = urlParams.get('greeting')
-let greetingValue = math.floor(greetingShow)
+let greetingValue = greetingShow
 console.log(greetingValue)
 
 

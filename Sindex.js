@@ -25,13 +25,20 @@ dropdown.forEach(dropdown =>{
     });
     })
     
+//--------------------------- Local storage ------------------------//
+
+
+const urlParams = new URLSearchParams(window.location.search)
+const greetingShow = urlParams.get('greeting')
+let greetingValue = parseFloat(greetingShow)
+console.log(greetingValue)
     
 
 //-------------------- Welcome Banner ---------------------//
 const wBanner = document.getElementById("WB")
 var transfer = localStorage.getItem("textvalues")
 
-let userName = 202301
+let userName = greetingValue
 
 function chooseUser(){
 
@@ -307,13 +314,6 @@ function printstuImg(){
 }
 printstuImg()
 
-//--------------------------- Local storage ------------------------//
-
-
-const urlParams = new URLSearchParams(window.location.search)
-const greetingShow = urlParams.get('greeting')
-let greetingValue = parseFloat(greetingShow)
-console.log(greetingValue)
 
 
 

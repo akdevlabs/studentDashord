@@ -33,7 +33,6 @@ var transfer = localStorage.getItem("textvalues")
 
 let userName = 202301
 
-
 function chooseUser(){
 
     if (userName === 202301){
@@ -311,7 +310,10 @@ printstuImg()
 //--------------------------- Local storage ------------------------//
 
 
-
+const urlParams = new URLSearchParams(window.location.search)
+const greetingShow = urlParams.get('greeting')
+let greetingValue = math.floor(greetingShow)
+console.log(greetingValue)
 
 
 

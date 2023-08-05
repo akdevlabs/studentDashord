@@ -31,7 +31,7 @@ dropdown.forEach(dropdown =>{
 const wBanner = document.getElementById("WB")
 var transfer = localStorage.getItem("textvalues")
 
-let userName = (Math.floor(transfer))
+let userName = 202301
 
 
 function chooseUser(){

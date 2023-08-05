@@ -313,7 +313,7 @@ printstuImg()
 const urlParams = new URLSearchParams(window.location.search)
 const greetingShow = urlParams.get('greeting')
 let greetingValue = greetingShow
-console.log(greetingValue)
+console.log(typeof(greetingValue))
 
 
 
